@@ -1,7 +1,7 @@
 const { User } = require('../models');
 
 const userController = {
-    // get all users
+    // GET all users
     getAllUser(req,res){
         User.find({})
         .then(dbUserData => res.json(dbUserData))
@@ -10,7 +10,7 @@ const userController = {
             res.sendStatus(400);
         });
     },
-    // PUT a user
+    // POST a user
     createUser({body}, res){
         User.create(body)
             .then(dbUserData => res.json(dbUserData))
