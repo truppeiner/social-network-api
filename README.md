@@ -6,3 +6,4 @@ A school project intended to demonstrate proficiency with building a mongoose/ex
 
 ## Walkthrough Video 
 
+https://www.youtube.com/watch?v=rxbuC6MlyPE
